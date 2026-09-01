@@ -1,0 +1,925 @@
+﻿  Building 'Amd-V-ReloadDbg' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  Assembling NPT-Hook\common.asm...
+  Assembling NPT-Hook\Hook_asm.asm...
+  Assembling NPT-Hook\SVM_asm.asm...
+  main.cpp
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(39,2): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(58,2): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(72,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(104,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(111,4): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(116,4): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(109,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(130,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(142,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(168,6): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(182,9): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(176,7): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(166,5): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(160,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(195,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(214,5): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(206,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(224,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(262,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(292,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(322,2): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(329,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(343,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(364,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(369,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(377,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(387,5): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(382,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(395,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(400,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(405,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(410,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(420,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(431,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(450,5): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(442,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(465,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(477,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(489,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(494,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(499,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(504,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(509,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(514,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(545,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(562,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(579,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(602,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(637,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(665,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(686,4): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(697,4): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(684,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(903,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1048,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1058,9): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1120,2): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1142,5): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1134,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1150,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1307,2): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1316,2): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1324,2): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1379,2): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1396,2): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1422,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1471,5): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1494,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1512,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1541,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1564,5): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1554,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1717,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1917,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1990,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(2264,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(2282,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(2367,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(2392,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(2475,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(2497,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(2634,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(2669,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(2793,2): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(2802,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(2855,2): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(2865,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(2870,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(2897,4): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(2939,4): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(3017,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(3139,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(3180,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(3408,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(3446,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(3479,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(3790,5): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(3877,4): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(3922,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“main.cpp”)
+  
+  Basic.cpp
+  Hook.cpp
+  NptHook.cpp
+  PageTable.cpp
+  SVM.cpp
+  dbg.cpp
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(39,2): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(58,2): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(72,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(104,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(111,4): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(116,4): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(109,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(130,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(142,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(168,6): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(182,9): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(176,7): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(166,5): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(160,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(195,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(214,5): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(206,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(224,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(262,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(292,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(322,2): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(329,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(343,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(364,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(369,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(377,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(387,5): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(382,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(395,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(400,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(405,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(410,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(420,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(431,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(450,5): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(442,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(465,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(477,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(489,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(494,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(499,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(504,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(509,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(514,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(545,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(562,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(579,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(602,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(637,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(665,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(686,4): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(697,4): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(684,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(903,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1048,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1058,9): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1120,2): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1142,5): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1134,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1150,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1307,2): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1316,2): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1324,2): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1379,2): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1396,2): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1422,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1471,5): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1494,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1512,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1541,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1564,5): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1554,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1717,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1917,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1990,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(2264,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(2282,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(2367,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(2392,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(2475,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(2497,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(2634,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(2669,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(2793,2): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(2802,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(2855,2): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(2865,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(2870,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(2897,4): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(2939,4): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(3017,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(3139,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(3180,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(3408,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(3446,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(3479,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(3790,5): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(3877,4): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(3922,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/dbg.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\dbg.cpp(39,36): warning C4311: “类型强制转换”: 从“HANDLE”到“ULONG”的指针截断
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\dbg.cpp(39,36): warning C4302: “类型强制转换”: 从“HANDLE”到“ULONG”截断
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\dbg.cpp(74,25): warning C4996: 'ExAllocatePoolWithTag': ExAllocatePoolWithTag is deprecated, use ExAllocatePool2.
+  HookFunc.cpp
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(39,2): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(58,2): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(72,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(104,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(111,4): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(116,4): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(109,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(130,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(142,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(168,6): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(182,9): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(176,7): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(166,5): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(160,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(195,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(214,5): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(206,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(224,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(262,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(292,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(322,2): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(329,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(343,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(364,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(369,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(377,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(387,5): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(382,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(395,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(400,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(405,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(410,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(420,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(431,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(450,5): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(442,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(465,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(477,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(489,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(494,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(499,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(504,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(509,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(514,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(545,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(562,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(579,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(602,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(637,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(665,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(686,4): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(697,4): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(684,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(903,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1048,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1058,9): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1120,2): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1142,5): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1134,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1150,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1307,2): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1316,2): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1324,2): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1379,2): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1396,2): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1422,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1471,5): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1494,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1512,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1541,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1564,5): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1554,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1717,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1917,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(1990,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(2264,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(2282,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(2367,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(2392,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(2475,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(2497,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(2634,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(2669,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(2793,2): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(2802,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(2855,2): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(2865,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(2870,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(2897,4): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(2939,4): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(3017,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(3139,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(3180,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(3408,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(3446,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(3479,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(3790,5): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(3877,4): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\KernelDbgStruct.h(3922,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  (编译源文件“DbgHook/HookFunc.cpp”)
+  
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\HookFunc.cpp(155,50): warning C4996: 'ExAllocatePoolWithTag': ExAllocatePoolWithTag is deprecated, use ExAllocatePool2.
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\HookFunc.cpp(327,18): warning C4101: “IoStatusBlock”: 未引用的局部变量
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\HookFunc.cpp(329,7): warning C4101: “Teb”: 未引用的局部变量
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\HookFunc.cpp(325,11): warning C4101: “Status”: 未引用的局部变量
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\HookFunc.cpp(324,18): warning C4101: “LoadDllArgs”: 未引用的局部变量
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\HookFunc.cpp(323,9): warning C4189: “ProcessId”: 局部变量已初始化但不引用
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\HookFunc.cpp(318,8): warning C4101: “Port”: 未引用的局部变量
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\HookFunc.cpp(326,20): warning C4101: “Obja”: 未引用的局部变量
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\HookFunc.cpp(441,30): warning C4996: 'ExAllocatePoolWithQuotaTag': ExAllocatePoolWithQuotaTag is deprecated, use ExAllocatePool2.
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\HookFunc.cpp(812,13): warning C4101: “ApcState”: 未引用的局部变量
+  正在生成代码...
+  Amd-V-ReloadDbg.vcxproj -> D:\Driver_study\vt\1\Amd-V-ReloadDbg\x64\Debug\Amd-V-ReloadDbg.sys
+  Done Adding Additional Store
+  Successfully signed: D:\Driver_study\vt\1\Amd-V-ReloadDbg\x64\Debug\Amd-V-ReloadDbg.sys
+  
+  Inf2Cat task was skipped as there were no inf files to process
+  
+  DrvCat task was skipped as there was no catalog file to process
+  

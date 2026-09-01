@@ -1,0 +1,8 @@
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\main.cpp;D:\Driver_study\vt\1\Amd-V-ReloadDbg\x64\Debug\main.obj
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\NPT-Hook\Basic.cpp;D:\Driver_study\vt\1\Amd-V-ReloadDbg\x64\Debug\Basic.obj
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\NPT-Hook\Hook.cpp;D:\Driver_study\vt\1\Amd-V-ReloadDbg\x64\Debug\Hook.obj
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\NPT-Hook\NptHook.cpp;D:\Driver_study\vt\1\Amd-V-ReloadDbg\x64\Debug\NptHook.obj
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\NPT-Hook\PageTable.cpp;D:\Driver_study\vt\1\Amd-V-ReloadDbg\x64\Debug\PageTable.obj
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\NPT-Hook\SVM.cpp;D:\Driver_study\vt\1\Amd-V-ReloadDbg\x64\Debug\SVM.obj
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\dbg.cpp;D:\Driver_study\vt\1\Amd-V-ReloadDbg\x64\Debug\dbg.obj
+D:\Driver_study\vt\1\Amd-V-ReloadDbg\DbgHook\HookFunc.cpp;D:\Driver_study\vt\1\Amd-V-ReloadDbg\x64\Debug\HookFunc.obj

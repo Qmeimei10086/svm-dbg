@@ -1,0 +1,537 @@
+#ifndef VMCB_H
+#define VMCB_H
+
+#include "Basic.h"
+
+//对应 newbluepill 的 vmcb.h 可以比较阅读
+
+enum Opcode1InterceptBits
+{
+	INTR = 0x1,
+	NMX = 0x2,
+	SMI = 0x4,
+	INIT = 0x8,
+	VINITR = 0x10,
+	//这个特殊 指的是 CR0 除了 bit 1 (CR0.MP) 和 bit 3 (CR0.TS) 之外的 bit 更改
+	ChangeNonTsMpCr0 = 0x20,
+	ReadIDTR = 0x40,
+	ReadGDTR = 0x80,
+	ReadLDTR = 0x100,
+	ReadTR = 0x200,
+	WriteIDTR = 0x400,
+	WriteGDTR = 0x800,
+	WriteLDTR = 0x1000,
+	WriteTR = 0x2000,
+	RDTSC = 0x4000,
+	RDTMC = 0x8000,
+	PUSHF = 0x10000,
+	POPF = 0x20000,
+	CPUID = 0x40000,
+	RSM = 0x80000,
+	IRET = 0x100000,
+	//int指令，和内置定义的INT类型冲突，改为INTn，n代表中断号
+	INTn = 0x200000,
+	INVD = 0x400000,
+	PAUSE = 0x800000,
+	HLT = 0x1000000,
+	INVLPG = 0x2000000,
+	INVLPGA = 0x4000000,
+	IN_OUT = 0x8000000,
+	RDMSR_WRMSR = 0x10000000,
+	//任务切换是触发
+	TASK_SWITCH = 0x20000000,
+	FERR_FREEZE = 0x40000000,
+	//关闭事件触发
+	SHUTDOWN_EVENT = 0x80000000,
+};
+
+enum Opcode2InterceptBits
+{
+	VMRUN = 0x1,
+	VMCALL = 0x2,
+	VMLOAD = 0x4,
+	VMSAVE = 0x8,
+	STGI = 0x10,
+	CLGI = 0x20,
+	SKINIT = 0x40,
+	RDTSCP = 0x80,
+	ICEBP = 0x100,
+	WBINVD_WBNOINVD = 0x200,
+	MONITOR_MONITORX = 0x400,
+	MWAIT_MWAITX_NOT_ARMED = 0x800,
+	MWAIT_MWAITX_ARMED = 0x1000,
+	XSETBV = 0x2000,
+	RDPRU = 0x4000,
+	WriteEFER = 0x8000,
+	WriteCR0 = 0x10000,
+	WriteCR1 = 0x20000,
+	WriteCR2 = 0x40000,
+	WriteCR3 = 0x80000,
+	WriteCR4 = 0x100000,
+	WriteCR5 = 0x200000,
+	WriteCR6 = 0x400000,
+	WriteCR7 = 0x800000,
+	WriteCR8 = 0x1000000,
+	WriteCR9 = 0x2000000,
+	WriteCR10 = 0x4000000,
+	WriteCR11 = 0x8000000,
+	WriteCR12 = 0x10000000,
+	WriteCR13 = 0x20000000,
+	WriteCR14 = 0x40000000,
+	WriteCR15 = 0x80000000,
+};
+
+enum Opcode3InterceptBits
+{
+	INVLPGB = 0x1,
+	ILLEGALLY_INVLPGB = 0x2,
+	INVPCID = 0x4,
+	MCOMMIT = 0x8,
+	//Presence of this bit is indicated by CPUID Fn8000_000A, EDX[24] = 1.
+	TLBSYNC = 0x10,
+	//Intercept bus lock operations when Bus Lock Threshold
+	//Counter is 0 (occurs before guest instruction executes)
+	BUS_LOCK = 0x20,
+};
+
+union VIntr
+{
+	UINT64 data;
+	struct
+	{
+		UINT8 vipr;
+		UINT8 virq : 1;
+		UINT8 vgif : 1;
+		UINT8 reservedBit : 1;
+		UINT8 vnmi : 1;
+		UINT8 vnmiMask : 1;
+		UINT8 reservedBits1 : 3;
+		UINT8 vIntrPrio : 4;
+		UINT8 vIgnTpr : 1;
+		UINT8 reservedBits2 : 3;
+		UINT8 vIntrMasking : 1;
+		UINT8 enableGIFForGuest : 1;
+		UINT8 vNmiEnable : 1;
+		UINT8 reservedBits3 : 3;
+		UINT8 enableX2AVIC : 1;
+		UINT8 enableAVIC : 1;
+		UINT8 vIntrVector;
+		UINT8 reservedBits4[3];
+	} fields;
+};
+
+union GuestInterruptStatus
+{
+	UINT64 data;
+	struct
+	{
+		UINT64 interructShadow : 1;
+		UINT64 guestInterruptMask : 1;
+		UINT64 reservedBits : 62;
+	} fields;
+};
+
+union SVMExtendFeatureBits1
+{
+	UINT64 data;
+	struct
+	{
+		UINT8 enableNestedPage : 1;
+		UINT8 enableSecureEncrypted : 1;
+		UINT8 enableSecureEncryptedState : 1;
+		UINT8 guestModeExecuteTrap : 1;
+		UINT8 enableSSSCheck : 1;
+		UINT8 virtualTransparentTrap : 1;
+		UINT8 enableReadonlyGuestPage : 1;
+		UINT8 invlpgbTlbsynAsUd : 1;
+		UINT8 reservedBits[7];
+	} fields;
+};
+
+union ApicBar
+{
+	UINT64 data;
+	struct
+	{
+		UINT64 apicBar : 52;
+		UINT64 reservedBits : 12;
+	} fields;
+};
+
+union EventInj
+{
+	UINT64 data;
+	struct
+	{
+		UINT64 vector : 8;
+		UINT64 type : 3;
+		UINT64 ev : 1;
+		UINT64 resvd1 : 19;
+		UINT64 vaild : 1;
+		UINT64 errorcode : 32;
+	} fields;
+};
+
+union SVMExtendFeatureBits2
+{
+	UINT64 data;
+	struct
+	{
+		UINT64 enableLBRVirtualcation : 1;
+		UINT64 enableVirtualizedVmsaveVmload : 1;
+		UINT64 reservedBits : 62;
+	} fields;
+};
+
+struct VMCBCleanBits
+{
+	UINT32 bits;
+	UINT32 reservedBits;
+};
+
+union ApicBackingPage
+{
+	UINT64 data;
+	struct
+	{
+		UINT64 apicBackingPage : 52;
+		UINT64 reservedBits : 12;
+	} fields;
+};
+
+union AvicLogicalTable
+{
+	UINT64 data;
+	struct
+	{
+		UINT64 reservedBits1 : 12;
+		UINT64 avicLogicalTable : 40;
+		UINT64 reservedBits2 : 12;
+	} fields;
+};
+
+union AvicPhysicalTable
+{
+	UINT64 data;
+	struct
+	{
+		UINT64 avicPhyNaxIdx : 8;
+		UINT64 reservedBits1 : 4;
+		UINT64 avicPhyTable : 40;
+		UINT64 reservedBits2 : 12;
+	} fields;
+};
+
+union VMSA
+{
+	UINT64 data;
+	struct
+	{
+		UINT64 reservedBits1 : 12;
+		UINT64 wmsa : 40;
+		UINT64 reservedBits2 : 12;
+	} fields;
+};
+
+struct SegmentRegStatus
+{
+	UINT16 selector;
+	UINT16 attrib;
+	UINT32 limit;
+	UINT64 base;
+};
+
+typedef struct
+{
+	struct
+	{
+		//CRX读中断
+		UINT16 interceptReadCRX;
+		//CRX写中断
+		UINT16 intreceptWriteCRX;
+		//DRX读中断
+		UINT16 interceptReadDRX;
+		//DRX写中断
+		UINT16 intreceptWriteDRX;
+		//异常中断
+		UINT32 interceptExceptionX;
+		//特殊指令的中断
+		UINT32 interceptOpcodes1;
+		UINT32 interceptOpcodes2;
+		UINT32 interceptOpcodes3;
+		//保留不使用
+		UINT8 reserved1[0x24];
+		UINT16 pauseFilterTheshold;
+		UINT16 pauseFilterCount;
+		UINT64 iopmBasePA;
+		//MSR中断标记，被标记的MSR产生读写之后会产生vmexit事件
+		UINT64 msrpmBasePA;
+		UINT64 tscOffset;
+		UINT32 guestASID;
+		UINT8 tlbControl;
+		UINT8 reserved2[3];
+		VIntr vIntr;
+		GuestInterruptStatus guestInterruptStatus;
+		UINT64 exitCode;
+		UINT64 exitInfo1;
+		UINT64 exitInfo2;
+		UINT64 exitIntInfo;
+		//NP_ENABLE
+		SVMExtendFeatureBits1 extendFeatures1;
+		ApicBar apicBar;
+		UINT64 physicalAddressGHCB;
+		EventInj eventInj;
+		UINT64 nCr3;
+		SVMExtendFeatureBits2 extendFeatures2;
+		VMCBCleanBits cleanBits;
+		UINT64 nRip;
+		struct
+		{
+			UINT64 reservedQword1;
+			UINT64 reservedQword2;
+		} reservedBits1;
+		ApicBackingPage apicBackingPage;
+		UINT64 reservedBits2;
+		AvicLogicalTable avicLogicalTable;
+		AvicPhysicalTable avicPhysicalTable;
+		UINT64 reservedBits3;
+		VMSA vmsa;
+		UINT64 vmgExitRax;
+		UINT8 vmgExitCpl;
+		UINT16 busThresoldCounter;
+		UINT8 reservedBits4[0x2c0];
+		UINT8 hostDefined[0x20];
+	} controlFields;
+	struct
+	{
+		SegmentRegStatus es;
+		SegmentRegStatus cs;
+		SegmentRegStatus ss;
+		SegmentRegStatus ds;
+		SegmentRegStatus fs;
+		SegmentRegStatus gs;
+		SegmentRegStatus gdtr;
+		SegmentRegStatus ldtr;
+		SegmentRegStatus idtr;
+		SegmentRegStatus tr;
+		UINT8 reservedBits1[0x2a];
+		UINT8 cpl;
+		UINT32 reservetBits2;
+		UINT64 efer;
+		UINT8 reservedBIts3[0x70];
+		UINT64 cr4;
+		UINT64 cr3;
+		UINT64 cr0;
+		UINT64 dr7;
+		UINT64 dr6;
+		UINT64 rflags;
+		UINT64 rip;
+		UINT8 reservedBIts4[0x58];
+		UINT64 rsp;
+		UINT64 s_cet;
+		UINT64 ssp;
+		UINT64 isstAddr;
+		UINT64 rax;
+		UINT64 star;
+		UINT64 lstar;
+		UINT64 cstar;
+		UINT64 sfmask;
+		UINT64 kernelGsBase;
+		UINT64 sysenterCs;
+		UINT64 sysenterEsp;
+		UINT64 sysenterEip;
+		UINT64 cr2;
+		UINT8 reservedBits5[0x20];
+		UINT64 gPat;
+		UINT64 dbgctl;
+		UINT64 brFrom;
+		UINT64 brTo;
+		UINT64 lastExcpFrom;
+		UINT64 dbgExtnCfg;
+		UINT8 reservedBits6[0x48];
+		UINT64 specCtrl;
+		UINT8 reservedBits7[0x388];
+		UINT8 lbrStackFromTo[0x100];
+		UINT64 lbrSelect;
+		UINT64 lbsFetchCtl;
+		UINT64 lbsFetchLinaddr;
+		UINT64 lbsOpCtl;
+		UINT64 lbsOpRip;
+		UINT64 lbsOpData;
+		UINT64 lbsOpData2;
+		UINT64 lbsOpData3;
+		UINT64 lbsDcLinaddr;
+		UINT64 bpIhstgtRip;
+		UINT64 icIhsExtdCtl;
+	} statusFields;
+} VMCB;
+
+enum VmExitReasons
+{
+	VMEXIT_REASON_CR0_READ = 0x0000,
+	VMEXIT_REASON_CR1_READ = 0x0001,
+	VMEXIT_REASON_CR2_READ = 0x0002,
+	VMEXIT_REASON_CR3_READ = 0x0003,
+	VMEXIT_REASON_CR4_READ = 0x0004,
+	VMEXIT_REASON_CR5_READ = 0x0005,
+	VMEXIT_REASON_CR6_READ = 0x0006,
+	VMEXIT_REASON_CR7_READ = 0x0007,
+	VMEXIT_REASON_CR8_READ = 0x0008,
+	VMEXIT_REASON_CR9_READ = 0x0009,
+	VMEXIT_REASON_CR10_READ = 0x000a,
+	VMEXIT_REASON_CR11_READ = 0x000b,
+	VMEXIT_REASON_CR12_READ = 0x000c,
+	VMEXIT_REASON_CR13_READ = 0x000d,
+	VMEXIT_REASON_CR14_READ = 0x000e,
+	VMEXIT_REASON_CR15_READ = 0x000f,
+	VMEXIT_REASON_CR0_WRITE = 0x0010,
+	VMEXIT_REASON_CR1_WRITE = 0x0011,
+	VMEXIT_REASON_CR2_WRITE = 0x0012,
+	VMEXIT_REASON_CR3_WRITE = 0x0013,
+	VMEXIT_REASON_CR4_WRITE = 0x0014,
+	VMEXIT_REASON_CR5_WRITE = 0x0015,
+	VMEXIT_REASON_CR6_WRITE = 0x0016,
+	VMEXIT_REASON_CR7_WRITE = 0x0017,
+	VMEXIT_REASON_CR8_WRITE = 0x0018,
+	VMEXIT_REASON_CR9_WRITE = 0x0019,
+	VMEXIT_REASON_CR10_WRITE = 0x001a,
+	VMEXIT_REASON_CR11_WRITE = 0x001b,
+	VMEXIT_REASON_CR12_WRITE = 0x001c,
+	VMEXIT_REASON_CR13_WRITE = 0x001d,
+	VMEXIT_REASON_CR14_WRITE = 0x001e,
+	VMEXIT_REASON_CR15_WRITE = 0x001f,
+	VMEXIT_REASON_DR0_READ = 0x0020,
+	VMEXIT_REASON_DR1_READ = 0x0021,
+	VMEXIT_REASON_DR2_READ = 0x0022,
+	VMEXIT_REASON_DR3_READ = 0x0023,
+	VMEXIT_REASON_DR4_READ = 0x0024,
+	VMEXIT_REASON_DR5_READ = 0x0025,
+	VMEXIT_REASON_DR6_READ = 0x0026,
+	VMEXIT_REASON_DR7_READ = 0x0027,
+	VMEXIT_REASON_DR8_READ = 0x0028,
+	VMEXIT_REASON_DR9_READ = 0x0029,
+	VMEXIT_REASON_DR10_READ = 0x002a,
+	VMEXIT_REASON_DR11_READ = 0x002b,
+	VMEXIT_REASON_DR12_READ = 0x002c,
+	VMEXIT_REASON_DR13_READ = 0x002d,
+	VMEXIT_REASON_DR14_READ = 0x002e,
+	VMEXIT_REASON_DR15_READ = 0x002f,
+	VMEXIT_REASON_DR0_WRITE = 0x0030,
+	VMEXIT_REASON_DR1_WRITE = 0x0031,
+	VMEXIT_REASON_DR2_WRITE = 0x0032,
+	VMEXIT_REASON_DR3_WRITE = 0x0033,
+	VMEXIT_REASON_DR4_WRITE = 0x0034,
+	VMEXIT_REASON_DR5_WRITE = 0x0035,
+	VMEXIT_REASON_DR6_WRITE = 0x0036,
+	VMEXIT_REASON_DR7_WRITE = 0x0037,
+	VMEXIT_REASON_DR8_WRITE = 0x0038,
+	VMEXIT_REASON_DR9_WRITE = 0x0039,
+	VMEXIT_REASON_DR10_WRITE = 0x003a,
+	VMEXIT_REASON_DR11_WRITE = 0x003b,
+	VMEXIT_REASON_DR12_WRITE = 0x003c,
+	VMEXIT_REASON_DR13_WRITE = 0x003d,
+	VMEXIT_REASON_DR14_WRITE = 0x003e,
+	VMEXIT_REASON_DR15_WRITE = 0x003f,
+	VMEXIT_REASON_EXCEPTION_DE = 0x0040,
+	VMEXIT_REASON_EXCEPTION_DB = 0x0041,
+	VMEXIT_REASON_EXCEPTION_NMI = 0x0042,
+	VMEXIT_REASON_EXCEPTION_BP = 0x0043,
+	VMEXIT_REASON_EXCEPTION_OF = 0x0044,
+	VMEXIT_REASON_EXCEPTION_BR = 0x0045,
+	VMEXIT_REASON_EXCEPTION_UD = 0x0046,
+	VMEXIT_REASON_EXCEPTION_NM = 0x0047,
+	VMEXIT_REASON_EXCEPTION_DF = 0x0048,
+	VMEXIT_REASON_EXCEPTION_09 = 0x0049,
+	VMEXIT_REASON_EXCEPTION_TS = 0x004a,
+	VMEXIT_REASON_EXCEPTION_NP = 0x004b,
+	VMEXIT_REASON_EXCEPTION_SS = 0x004c,
+	VMEXIT_REASON_EXCEPTION_GP = 0x004d,
+	VMEXIT_REASON_EXCEPTION_PF = 0x004e,
+	VMEXIT_REASON_EXCEPTION_15 = 0x004f,
+	VMEXIT_REASON_EXCEPTION_MF = 0x0050,
+	VMEXIT_REASON_EXCEPTION_AC = 0x0051,
+	VMEXIT_REASON_EXCEPTION_MC = 0x0052,
+	VMEXIT_REASON_EXCEPTION_XF = 0x0053,
+	VMEXIT_REASON_EXCEPTION_20 = 0x0054,
+	VMEXIT_REASON_EXCEPTION_21 = 0x0055,
+	VMEXIT_REASON_EXCEPTION_22 = 0x0056,
+	VMEXIT_REASON_EXCEPTION_23 = 0x0057,
+	VMEXIT_REASON_EXCEPTION_24 = 0x0058,
+	VMEXIT_REASON_EXCEPTION_25 = 0x0059,
+	VMEXIT_REASON_EXCEPTION_26 = 0x005a,
+	VMEXIT_REASON_EXCEPTION_27 = 0x005b,
+	VMEXIT_REASON_EXCEPTION_28 = 0x005c,
+	VMEXIT_REASON_EXCEPTION_VC = 0x005d,
+	VMEXIT_REASON_EXCEPTION_SX = 0x005e,
+	VMEXIT_REASON_EXCEPTION_31 = 0x005f,
+	VMEXIT_REASON_INTR = 0x0060,
+	VMEXIT_REASON_NMI = 0x0061,
+	VMEXIT_REASON_SMI = 0x0062,
+	VMEXIT_REASON_INIT = 0x0063,
+	VMEXIT_REASON_VINTR = 0x0064,
+	VMEXIT_REASON_CR0_SEL_WRITE = 0x0065,
+	VMEXIT_REASON_IDTR_READ = 0x0066,
+	VMEXIT_REASON_GDTR_READ = 0x0067,
+	VMEXIT_REASON_LDTR_READ = 0x0068,
+	VMEXIT_REASON_TR_READ = 0x0069,
+	VMEXIT_REASON_IDTR_WRITE = 0x006a,
+	VMEXIT_REASON_GDTR_WRITE = 0x006b,
+	VMEXIT_REASON_LDTR_WRITE = 0x006c,
+	VMEXIT_REASON_TR_WRITE = 0x006d,
+	VMEXIT_REASON_RDTSC = 0x006e,
+	VMEXIT_REASON_RDPMC = 0x006f,
+	VMEXIT_REASON_PUSHF = 0x0070,
+	VMEXIT_REASON_POPF = 0x0071,
+	VMEXIT_REASON_CPUID = 0x0072,
+	VMEXIT_REASON_RSM = 0x0073,
+	VMEXIT_REASON_IRET = 0x0074,
+	VMEXIT_REASON_SWINT = 0x0075,
+	VMEXIT_REASON_INVD = 0x0076,
+	VMEXIT_REASON_PAUSE = 0x0077,
+	VMEXIT_REASON_HLT = 0x0078,
+	VMEXIT_REASON_INVLPG = 0x0079,
+	VMEXIT_REASON_INVLPGA = 0x007a,
+	VMEXIT_REASON_IOIO = 0x007b,
+	VMEXIT_REASON_MSR = 0x007c,
+	VMEXIT_REASON_TASK_SWITCH = 0x007d,
+	VMEXIT_REASON_FERR_FREEZE = 0x007e,
+	VMEXIT_REASON_SHUTDOWN = 0x007f,
+	VMEXIT_REASON_VMRUN = 0x0080,
+	VMEXIT_REASON_VMMCALL = 0x0081,
+	VMEXIT_REASON_VMLOAD = 0x0082,
+	VMEXIT_REASON_VMSAVE = 0x0083,
+	VMEXIT_REASON_STGI = 0x0084,
+	VMEXIT_REASON_CLGI = 0x0085,
+	VMEXIT_REASON_SKINIT = 0x0086,
+	VMEXIT_REASON_RDTSCP = 0x0087,
+	VMEXIT_REASON_ICEBP = 0x0088,
+	VMEXIT_REASON_WBINVD = 0x0089,
+	VMEXIT_REASON_MONITOR = 0x008a,
+	VMEXIT_REASON_MWAIT = 0x008b,
+	VMEXIT_REASON_MWAIT_CONDITIONAL = 0x008c,
+	VMEXIT_REASON_XSETBV = 0x008d,
+	VMEXIT_REASON_EFER_WRITE_TRAP = 0x008f,
+	VMEXIT_REASON_CR0_WRITE_TRAP = 0x0090,
+	VMEXIT_REASON_CR1_WRITE_TRAP = 0x0091,
+	VMEXIT_REASON_CR2_WRITE_TRAP = 0x0092,
+	VMEXIT_REASON_CR3_WRITE_TRAP = 0x0093,
+	VMEXIT_REASON_CR4_WRITE_TRAP = 0x0094,
+	VMEXIT_REASON_CR5_WRITE_TRAP = 0x0095,
+	VMEXIT_REASON_CR6_WRITE_TRAP = 0x0096,
+	VMEXIT_REASON_CR7_WRITE_TRAP = 0x0097,
+	VMEXIT_REASON_CR8_WRITE_TRAP = 0x0098,
+	VMEXIT_REASON_CR9_WRITE_TRAP = 0x0099,
+	VMEXIT_REASON_CR10_WRITE_TRAP = 0x009a,
+	VMEXIT_REASON_CR11_WRITE_TRAP = 0x009b,
+	VMEXIT_REASON_CR12_WRITE_TRAP = 0x009c,
+	VMEXIT_REASON_CR13_WRITE_TRAP = 0x009d,
+	VMEXIT_REASON_CR14_WRITE_TRAP = 0x009e,
+	VMEXIT_REASON_CR15_WRITE_TRAP = 0x009f,
+	VMEXIT_REASON_NPF = 0x0400,
+	VMEXIT_REASON_AVIC_INCOMPLETE_IPI = 0x0401,
+	VMEXIT_REASON_AVIC_NOACCEL = 0x0402,
+	VMEXIT_REASON_VMGEXIT = 0x0403,
+	VMEXIT_REASON_INVALID = -1,
+};
+
+#endif

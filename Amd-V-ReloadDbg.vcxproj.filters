@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Driver Files">
+      <UniqueIdentifier>{8E41214B-6785-4CFE-B992-037D68949A14}</UniqueIdentifier>
+      <Extensions>inf;inv;inx;mof;mc;</Extensions>
+    </Filter>
+    <Filter Include="Header Files\NPT-Hook">
+      <UniqueIdentifier>{ac468fd9-8e73-406b-b0ed-3cc28261d98f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NPT-Hook">
+      <UniqueIdentifier>{fe721102-28c2-41aa-8780-4f46c72b6565}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DbgHook">
+      <UniqueIdentifier>{2f8a0f6d-1a7e-4c2b-9d3e-5f6a7b8c9d0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DbgHook">
+      <UniqueIdentifier>{3e9b1a5c-2b8f-4d3a-9c4e-6f7b8c9d0e1f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DbgHook\dbg.cpp">
+      <Filter>Source Files\DbgHook</Filter>
+    </ClCompile>
+    <ClCompile Include="DbgHook\HookFunc.cpp">
+      <Filter>Source Files\DbgHook</Filter>
+    </ClCompile>
+    <ClCompile Include="NPT-Hook\Basic.cpp">
+      <Filter>Source Files\NPT-Hook</Filter>
+    </ClCompile>
+    <ClCompile Include="NPT-Hook\Hook.cpp">
+      <Filter>Source Files\NPT-Hook</Filter>
+    </ClCompile>
+    <ClCompile Include="NPT-Hook\NptHook.cpp">
+      <Filter>Source Files\NPT-Hook</Filter>
+    </ClCompile>
+    <ClCompile Include="NPT-Hook\PageTable.cpp">
+      <Filter>Source Files\NPT-Hook</Filter>
+    </ClCompile>
+    <ClCompile Include="NPT-Hook\SVM.cpp">
+      <Filter>Source Files\NPT-Hook</Filter>
+    </ClCompile>
+    <MASM Include="NPT-Hook\common.asm">
+      <Filter>Source Files\NPT-Hook</Filter>
+    </MASM>
+    <MASM Include="NPT-Hook\Hook_asm.asm">
+      <Filter>Source Files\NPT-Hook</Filter>
+    </MASM>
+    <MASM Include="NPT-Hook\SVM_asm.asm">
+      <Filter>Source Files\NPT-Hook</Filter>
+    </MASM>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DbgHook\dbg.h">
+      <Filter>Header Files\DbgHook</Filter>
+    </ClInclude>
+    <ClInclude Include="DbgHook\HookFunc.h">
+      <Filter>Header Files\DbgHook</Filter>
+    </ClInclude>
+    <ClInclude Include="DbgHook\KernelDbgStruct.h">
+      <Filter>Header Files\DbgHook</Filter>
+    </ClInclude>
+    <ClInclude Include="DbgHook\Symbols.h">
+      <Filter>Header Files\DbgHook</Filter>
+    </ClInclude>
+    <ClInclude Include="NPT-Hook\Basic.h">
+      <Filter>Header Files\NPT-Hook</Filter>
+    </ClInclude>
+    <ClInclude Include="NPT-Hook\CasLockers.h">
+      <Filter>Header Files\NPT-Hook</Filter>
+    </ClInclude>
+    <ClInclude Include="NPT-Hook\Hook.h">
+      <Filter>Header Files\NPT-Hook</Filter>
+    </ClInclude>
+    <ClInclude Include="NPT-Hook\NptHook.h">
+      <Filter>Header Files\NPT-Hook</Filter>
+    </ClInclude>
+    <ClInclude Include="NPT-Hook\PageTable.h">
+      <Filter>Header Files\NPT-Hook</Filter>
+    </ClInclude>
+    <ClInclude Include="NPT-Hook\SVM.h">
+      <Filter>Header Files\NPT-Hook</Filter>
+    </ClInclude>
+    <ClInclude Include="NPT-Hook\UnpublicAPI.h">
+      <Filter>Header Files\NPT-Hook</Filter>
+    </ClInclude>
+    <ClInclude Include="NPT-Hook\Vmcb.h">
+      <Filter>Header Files\NPT-Hook</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
