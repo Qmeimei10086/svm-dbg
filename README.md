@@ -1,2 +1,24 @@
 # svm-dbg
 基于npt-hook的amd平台调试体系重建工具
+# 效果:
+效果：  
+![img2](https://github.com/Qmeimei10086/qmeimei10086.github.io/blob/main/img/2026-9-1-blog-show1.png?raw=true "img2")  
+这是普通调试器  
+![img3](https://github.com/Qmeimei10086/qmeimei10086.github.io/blob/main/img/2026-9-1-blog-show2.png?raw=true "img3")  
+经过测试可以调试全版本启动了反调试的vmp   
+至于调试某游戏，我没试过  
+# 环境
+目前只测试过20h1版本虚拟机，目前尚未不稳定，请勿再实体机使用  
+虚拟机推荐4-8核，核太少带不动npt hook，太多核dpc调度容易出问题，内存4G以上，太少会有部分关键函数被换入分页文件，再hook时引发蓝屏  
+# 注意
+尽可能再刚开机时加载程序  
+启动有概率刚好被pg发现，引发蓝屏  
+启动创建调试会hook几个高频函数，可能增加蓝屏几率和系统卡顿  
+# 展望
+优化npt hook代码，增加运行速率并减少蓝屏可能性  
+添加int3无痕断点功能  
+添加调试器白名单  
+# 参考
+https://github.com/Liu-Zhiying/StartAMDVHookDriverFromNone  
+https://github.com/xyddnljydd/vt-ReloadDbg  
+
