@@ -15,7 +15,7 @@
 启动有概率刚好被pg发现，引发蓝屏  
 启动创建调试会hook几个高频函数，可能增加蓝屏几率和系统卡顿  
 运行时将编译好的svm-dbg.exe Amd-V-ReloadDbg.sys 和 dbghelp.dll symsrv.dll 放一起，然后选择管理员身份启动，最好先开一个调试器再启动svm-dbg  
-# 展望
+# 未来目标
 优化npt hook代码，增加运行速率并减少蓝屏可能性  
 添加int3无痕断点功能  
 添加调试器白名单  
