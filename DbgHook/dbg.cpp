@@ -140,7 +140,7 @@ BOOLEAN DbgInit(ULONG Flags)
 	// Install hooks required by both Attach and CreateProcess debugging.
 	
 	HookFunction(g_SymbolsData.DbgkpQueueMessage, DbgkpQueueMessage, (PVOID*)&OriginalDbgkpQueueMessage);
-	//HookFunction(g_SymbolsData.DbgkpPostFakeThreadMessages, DbgkpPostFakeThreadMessagesHook, (PVOID*)&OriginalDbgkpPostFakeThreadMessages);
+	HookFunction(g_SymbolsData.DbgkpPostFakeThreadMessages, DbgkpPostFakeThreadMessagesHook, (PVOID*)&OriginalDbgkpPostFakeThreadMessages);
 	HookFunction(g_SymbolsData.NtTerminateProcess, NtTerminateProcess, (PVOID*)&OrignalNtTerminateProcess);
 	HookFunction(g_SymbolsData.KiDispatchException, KiDispatchException, (PVOID*)&OrignalKiDispatchException);
 	HookFunction(g_SymbolsData.NtCreateDebugObject, NtCreateDebugObject, (PVOID*)&OriginalNtCreateDebugObject);
