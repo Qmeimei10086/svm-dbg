@@ -16,11 +16,17 @@
 启动创建调试会hook几个高频函数，可能增加蓝屏几率和系统卡顿  
 运行时将编译好的svm-dbg.exe Amd-V-ReloadDbg.sys 和 dbghelp.dll symsrv.dll 放一起，然后选择管理员身份启动，最好先开一个调试器再启动svm-dbg  
 启动时直接选择按f8允许加载未签名驱动就行，不要连接windbg，不然异常会先被windbg接管
+# 开发进度
+由于且创建调试需要hook高频系统函数，npt hook本身的存在无法解决的性能问题，造成系统严重卡顿，本项目现已放弃对创建调试的维护  
+考虑到创建调试本身大部分是为了脱壳，本人开发了另外一个借助ptehook，不依赖虚拟化的项目，主要用与复制脱壳或者调试反作弊较为简陋的游戏：
+https://github.com/Qmeimei10086/pte-dbg/    
+本项目将致力于维护游戏安全中最高频使用的附加调试  
 # 未来目标
+添加句柄保护  
 优化npt hook代码，增加运行速率并减少蓝屏可能性  
 添加int3无痕断点功能  
 添加调试器白名单  
 # 参考
-https://github.com/Liu-Zhiying/StartAMDVHookDriverFromNone  
-https://github.com/xyddnljydd/vt-ReloadDbg  
+[1] https://github.com/Liu-Zhiying/StartAMDVHookDriverFromNone  
+[2] https://github.com/xyddnljydd/vt-ReloadDbg  
 
